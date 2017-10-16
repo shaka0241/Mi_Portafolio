@@ -33,6 +33,13 @@
 				    <li v-for="pelicula in peliculas">{{pelicula}}</li>
 				</ol>
 				
+				<h1>Listado de Frutas</h1>
+				<ul>
+				    <li v-for="(fruta, index) in frutas">
+				    {{index}}: {{fruta.nombre}} - {{fruta.temporada}}- {{fruta.precio}}
+				    </li>
+				</ul>
+				
 			</main>
 
 			

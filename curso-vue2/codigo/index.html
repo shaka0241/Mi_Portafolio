@@ -28,15 +28,22 @@
 				<hr>
 				
 				<!-- Directiva de bucles for -->
-				<h1>Listado de peliculas</h1>
+				<h1>Listado de peliculas (array)</h1>
 				<ol>
 				    <li v-for="pelicula in peliculas">{{pelicula}}</li>
 				</ol>
 				
-				<h1>Listado de Frutas</h1>
+				<h1>Listado de Frutas (array de objetos)</h1>
 				<ul>
 				    <li v-for="(fruta, index) in frutas">
 				    {{index}}: {{fruta.nombre}} - {{fruta.temporada}}- {{fruta.precio}}
+				    </li>
+				</ul>
+				
+				<h1>Listado de elementos de  Superfruta (objeto)</h1>
+				<ul>
+				    <li v-for="(value, key, index) in superfruta">
+				    {{index}}: {{key}} - {{value}}
 				    </li>
 				</ul>
 				

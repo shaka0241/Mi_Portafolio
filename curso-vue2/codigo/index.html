@@ -9,7 +9,19 @@
 		<body>
 
 			<main>
-                   
+
+				<h1>{{nombreYapellidos}}</h1>
+
+				<h4>Listado Ordenado</h4>
+				<ol>
+				    <li v-for="(pelicula, index) in peliculasOrdenadas">
+				    	{{pelicula}} 
+				    </li>
+				</ol>
+
+				<!-- eventos -->
+
+				<hr>                   
                    <h1>Peliculas</h1>
             
                 <ol>

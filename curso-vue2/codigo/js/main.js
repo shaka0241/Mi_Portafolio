@@ -2,9 +2,10 @@ new Vue ({
 	el:'main',
 	data: {
 		texto: 'Hola mundo desde VUE2',
-		nombre: 'Nombre por defecto',
+		nombre: 'Alberto',
+		apellido: 'Rojas',
         nota:5,
-        peliculas: ['Batman vs Superman','La verdad duele', 'Los mercenarios', 'Spiderman 3'],
+        peliculas: ['Batman vs Superman','La verdad duele','Avengers','Zoolander', 'Los mercenarios', 'Spiderman 3'],
         frutas: [
             {nombre: 'Manzana', temporada: 'Invierno', precio: 'Bajo'},
             {nombre: 'Naranja', temporada: 'Otoño', precio: 'Medio'},
@@ -25,5 +26,20 @@ new Vue ({
         borrarPelicula(indice){
             this.peliculas.splice(indice, 1);
         }
+    },
+    computed: {
+    	nombreYapellidos(){
+
+            var date = new Date();
+            var year = date.getFullYear();
+
+            return this.nombre+" "+this.apellido+" -Nota: "+this.nota+" - "+year+' '+date.getDate();
+
+    	},
+    	peliculasOrdenadas(){
+
+            return this.peliculas.sort();
+
+    	}
     }
 });

@@ -1,3 +1,5 @@
+Vue.filter('mayusculas', (value) => value.toUpperCase());
+
 new Vue ({
 	el:'main',
 	data: {
@@ -14,7 +16,8 @@ new Vue ({
         ],
         
         superfruta: {nombre: 'Mandarina', temporada: 'Verano', precio: 'Medio'},
-        peliculaNueva:null
+        peliculaNueva:null,
+        busqueda: null
 	},
     
     methods: {
@@ -40,6 +43,10 @@ new Vue ({
 
             return this.peliculas.sort();
 
-    	}
+    	},
+
+        buscarFruta(){
+            return this.frutas.filter((fruta) => fruta.nombre.includes(this.busqueda));
+        }
     }
 });

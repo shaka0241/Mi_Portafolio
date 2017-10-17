@@ -10,12 +10,15 @@
 
 			<main>
 
-				<h1>{{nombreYapellidos}}</h1>
+				<h1>{{nombreYapellidos | mayusculas}}</h1>
 
 				<h4>Listado Ordenado</h4>
+
+				<input type="search" v-model="busqueda" placeholder="Buscar fruta">
+
 				<ol>
-				    <li v-for="(pelicula, index) in peliculasOrdenadas">
-				    	{{pelicula}} 
+				    <li v-for="(fruta, index) in buscarFruta">
+				    	{{ fruta.nombre | mayusculas }} 
 				    </li>
 				</ol>
 

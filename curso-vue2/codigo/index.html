@@ -9,6 +9,24 @@
 		<body>
 
 			<main>
+                   
+                   <h1>Peliculas</h1>
+            
+                <ol>
+				    <li v-for="(pelicula, index) in peliculas">{{pelicula}} <button @click="borrarPelicula(index)"> Eliminar Pelicula</button>
+				    </li>
+				</ol>
+				
+				<form @submit.prevent="crearPelicula()">
+				    <input type="text" v-model="peliculaNueva">
+				    <input type="submit" value="Guardar peli">
+				</form>
+				<!--
+				<button v-on:click="crearPelicula()"> Crear Pelicula</button> 
+				
+                -->
+           <hr>
+            
 			    <!-- Interpolacion / imprimir el contenido de una variable del modelo/ instancia Vue -->
 			    
 				<h1> {{ texto }} </h1>
@@ -47,6 +65,8 @@
 				    </li>
 				</ul>
 				
+				<hr>
+								
 			</main>
 
 			

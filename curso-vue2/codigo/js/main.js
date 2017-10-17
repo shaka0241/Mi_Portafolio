@@ -12,6 +12,18 @@ new Vue ({
             {nombre: 'Sandia', temporada: 'Verano', precio: 'Medio'}
         ],
         
-        superfruta: {nombre: 'Mandarina', temporada: 'Verano', precio: 'Medio'}
-	}
+        superfruta: {nombre: 'Mandarina', temporada: 'Verano', precio: 'Medio'},
+        peliculaNueva:null
+	},
+    
+    methods: {
+        crearPelicula(){
+            //alert(this.peliculaNueva);
+            this.peliculas.unshift(this.peliculaNueva);
+            this.peliculaNueva = null;
+        },
+        borrarPelicula(indice){
+            this.peliculas.splice(indice, 1);
+        }
+    }
 });

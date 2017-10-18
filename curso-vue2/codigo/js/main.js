@@ -17,7 +17,8 @@ new Vue ({
         
         superfruta: {nombre: 'Mandarina', temporada: 'Verano', precio: 'Medio'},
         peliculaNueva:null,
-        busqueda: null
+        busqueda: '',
+        confirmado:null
 	},
     
     methods: {
@@ -28,6 +29,10 @@ new Vue ({
         },
         borrarPelicula(indice){
             this.peliculas.splice(indice, 1);
+        },
+            
+        marcar(index){
+            this.confirmado = index;
         }
     },
     computed: {

@@ -4,6 +4,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title> Curso de VueJs 2</title>
+		
+		<style>
+        
+            .like {
+                background: green;
+                color: white;
+                padding: 20px;
+            }
+            
+        </style>
+		
 	</head>
 
 		<body>
@@ -29,7 +40,7 @@
 				<input type="search" v-model="busqueda" placeholder="Buscar fruta">
 
 				<ol>
-				    <li v-for="(fruta, index) in buscarFruta">
+				    <li @click="marcar(index)" :class="{like: index == confirmado}" v-for="(fruta, index) in buscarFruta">
 				    	{{ fruta.nombre | mayusculas }} 
 				    </li>
 				</ol>

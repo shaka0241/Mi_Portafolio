@@ -50,3 +50,17 @@ new Vue ({
         }
     }
 });
+
+const vue2 = new Vue({
+   el: '#app',
+    data: {
+        texto: 'Segunda instancia vue'
+    }
+});
+
+const vue3 = new Vue({
+   el: '#tercera',
+    data: {
+        texto: 'Tercera instancia vue'
+    }
+});

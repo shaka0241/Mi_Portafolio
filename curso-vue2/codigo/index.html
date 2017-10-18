@@ -32,6 +32,19 @@
             </div>
 
 			<main>
+                
+                <hr>
+                
+                <h1>Listado por Ajax</h1>
+                
+                    <ol v-if="posts">
+                        <li v-for="(post, index) in posts">
+                        {{post.title}}
+                        </li>
+                    </ol>
+                    <span v-else>Cargando listado por ajax...</span>
+                
+                <hr>
 
 				<h1>{{nombreYapellidos | mayusculas}}</h1>
 
@@ -110,6 +123,7 @@
 			
 
 			<script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+			<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 			<script src="js/main.js"></script>
 			
 		</body>

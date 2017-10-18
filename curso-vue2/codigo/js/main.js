@@ -2,7 +2,16 @@ Vue.filter('mayusculas', (value) => value.toUpperCase());
 
 new Vue ({
 	el:'main',
+    mounted(){
+        
+        axios.get('https://jsonplaceholder.typicode.com/posts')
+        .then((respuesta) => {
+            this.posts=respuesta.data;
+        });
+        
+    },
 	data: {
+        posts: null,
 		texto: 'Hola mundo desde VUE2',
 		nombre: 'Alberto',
 		apellido: 'Rojas',

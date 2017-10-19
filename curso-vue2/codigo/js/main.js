@@ -42,6 +42,28 @@ Vue.component('frutas', {
     
 });
 
+
+Vue.component('padre', {
+    
+       template:  ` <div> 
+                        
+                        <h1>Componente Padre</h1>
+                            <div>
+
+                                <hijo></hijo>
+
+                                </div> 
+
+                    </div> `
+    
+});
+
+Vue.component('hijo', {
+   
+    template:  ` <p style="background: yellow;"> Soy un parrafo en el componente hijo </p> `
+    
+});
+
 Vue.filter('mayusculas', (value) => value.toUpperCase());
 
 new Vue ({

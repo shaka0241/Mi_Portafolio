@@ -77,6 +77,7 @@ new Vue ({
         
     },
 	data: {
+        elegido:'padre',
         posts: null,
 		texto: 'Hola mundo desde VUE2',
 		nombre: 'Alberto',

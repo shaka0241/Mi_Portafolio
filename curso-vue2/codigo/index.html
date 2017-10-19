@@ -32,6 +32,15 @@
             </div>
 
 			<main>
+               
+               <hr>
+               
+               <!-- COMPONENTES DINAMICOS -->
+               <button @click="elegido = 'articulos'">Cargar Articulos</button>
+               <button @click="elegido = 'padre'">Cargar padre</button>
+               <button @click="elegido = 'hijo'">Cargar hijo</button>
+               <component :is="elegido"></component>
+               
                 <hr>
                 <padre> </padre>
 

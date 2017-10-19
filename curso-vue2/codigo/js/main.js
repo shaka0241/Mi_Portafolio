@@ -34,7 +34,11 @@ Vue.component('articulos', {
 });
 
 Vue.component('frutas', {
-    template: '<h1>COMPONENTE FRUTAS </h1>'
+    props:['objeto'],
+    mounted(){
+        console.log(this.objeto)
+    }
+
     
 });
 

@@ -1,3 +1,43 @@
+Vue.component('articulos', {
+    template: `
+    
+    <div class="componente-articulos">
+    <h1>COMPONENTE {{titulo}} </h1> 
+        
+        <h1>Listado</h1>
+                
+        <ol v-if="posts">
+             <li v-for="(post, index) in posts">
+                        {{post.title}}
+             </li>
+        </ol>
+            <span v-else>Cargando listado por ajax...</span>
+            </div>
+
+    `,
+
+    mounted(){
+        axios.get('https://jsonplaceholder.typicode.com/posts')
+        .then((respuesta) => {
+            this.posts=respuesta.data;
+        });
+
+    },
+
+    data(){
+        return{
+            titulo:'ARTICULOS',
+            posts: null,
+        }
+    }
+    
+});
+
+Vue.component('frutas', {
+    template: '<h1>COMPONENTE FRUTAS </h1>'
+    
+});
+
 Vue.filter('mayusculas', (value) => value.toUpperCase());
 
 new Vue ({

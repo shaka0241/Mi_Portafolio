@@ -6,15 +6,17 @@
     
     
     <ul>
-      <li><a href="" target="_blank">Inicio</a></li>
-      <li><a href="" target="_blank">Mapas</a></li>
-      <li><a href="" target="_blank">Mapa Destacado</a></li>
-      <li><a href="" target="_blank">Contacto</a></li>
+      <li><router-link to="/home">Inicio</router-link></li>
+      <li><router-link to="/mapas">Mapas</router-link></li>
+      <li><router-link :to="{name:'mapa-top', params:{id:16}}">Mapa Destacado</router-link></li>
+      <li><router-link to="/contacto">Contacto</router-link></li>
     </ul>
     
+    <router-view></router-view>
     
-    <!--Cargar componente -->
+    <!--Cargar componente 
     <home></home>
+    -->
   
   </div>
   

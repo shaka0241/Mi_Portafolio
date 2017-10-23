@@ -3,14 +3,21 @@
     <img class="logo_min" src="./assets/logo.png">
     
     <h2>{{msg}}</h2>
+    
+    
     <ul>
       <li><a href="" target="_blank">Inicio</a></li>
       <li><a href="" target="_blank">Mapas</a></li>
       <li><a href="" target="_blank">Mapa Destacado</a></li>
       <li><a href="" target="_blank">Contacto</a></li>
     </ul>
+    
+    
+    <!--Cargar componente -->
+    <home></home>
   
   </div>
+  
 </template>
 
 <script>

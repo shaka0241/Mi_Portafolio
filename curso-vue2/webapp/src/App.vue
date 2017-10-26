@@ -1,25 +1,23 @@
 <template>
   <div id="app">
-    <img class="logo_min" src="./assets/logo.png">
-    
-    <h2>{{msg}}</h2>
-    
-    
-    <ul>
-      <li><router-link to="/home">Inicio</router-link></li>
-      <li><router-link to="/mapas">Mapas</router-link></li>
-      <li><router-link :to="{name:'mapa-top', params:{id:16}}">Mapa Destacado</router-link></li>
-      <li><router-link to="/contacto">Contacto</router-link></li>
-    </ul>
-    
-    <router-view></router-view>
-    
-    <!--Cargar componente 
-    <home></home>
-    -->
-  
-  </div>
-  
+    <img src="./assets/logo.png">
+      <h2>{{msg}}</h2>
+      <ul>
+        <li><router-link to="/home">Home</router-link></li>
+         <li><router-link :to="{name:'crear-restaurante'}">Crear restaurante</router-link></li>
+        <li><router-link to="/restaurantes">Restaurantes</router-link></li>
+        <li><router-link :to="{name:'restaurante-destacado', params: {id: 16}}">Restaurante destacado</router-link></li>
+        <li><router-link to="/contacto">Contacto</router-link></li>
+      </ul>
+      <hr/>
+
+      <router-view></router-view>
+
+      <!-- Cargar componente -->
+     <!-- <home></home>
+     <contacto></contacto> -->
+
+    </div>
 </template>
 
 <script>
@@ -27,7 +25,7 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Mapas App'
+      msg: 'RestaurantesAPP'
     }
   }
 }
@@ -60,10 +58,4 @@ li {
 a {
   color: #42b983;
 }
-
-.logo_min{
-  width: 70%;
-  height: 70%;
-}
-
 </style>

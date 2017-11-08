@@ -53,3 +53,4 @@ function retorno2(numero){
 console.log(retorno2(10));
 console.log(retorno2(20));
 console.log(retorno2(30));
+

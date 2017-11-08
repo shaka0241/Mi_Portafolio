@@ -1,45 +1,42 @@
 /*=============================================
 CONDICIONES
 =============================================*/
+
 var a = 5;
 var b = 10;
 
 if(a > b){
-
-	console.log("a es mayor que b")
-
-}else if(a == b){
-
-	console.log("a es lo mismo que b")
-
+    console.log("a es mayor que b");
+}else if (a == b){
+    
+    console.log("a es lo mismo que b");
 }else{
-
-	console.log("a no es lo mismo que b, y a es menor que b")
+    console.log("a no es lo mismo que b, y a es menor que b");
 }
 
-/*=============================================
-CAMBIOS
-=============================================*/
-var dia ="domingo";
+/* CAMBIOS */
+
+var dia = "lunes";
 
 switch(dia){
 
-	case "sabado":
-	console.log("voy a estudiar php");
-	break;
+    case "sabado":
+        console.log("Voy a estudiar php");
+        break;
 
-	case "martes":
-	console.log("voy a estudiar css");
-	break;
+    case "lunes":
+        console.log("Voy a estudiar css");
+        break;
 
-	case "jueves":
-	console.log("voy a estudiar html");
-	break;
+    case "jueves":
+        console.log("Voy a estudiar html");
+        break;
 
-	case "domingo":
-	console.log("voy a descansar");
-	break;
+    case "domingo":
+        console.log("Voy a descansar");
+        break;
 
-	default: console.log("voy a estudiar javascript");
+    default: console.log("Voy a estudiar JavaScript");
 
 }
+

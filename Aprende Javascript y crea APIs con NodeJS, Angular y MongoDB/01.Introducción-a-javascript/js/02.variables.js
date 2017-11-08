@@ -41,7 +41,7 @@ var caja = document.querySelector("#caja");
 console.log("caja", caja);
 
 caja.style.width = "200px";
-caja.style.heigth = "200px";
+caja.style.height = "200px";
 caja.style.background = "red";
 
 

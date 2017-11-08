@@ -1,0 +1,648 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"tab",
+				"tabla"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"o",
+				"option\tTag"
+			],
+			[
+				"im",
+				"img_sociales"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"con",
+				"condicion"
+			],
+			[
+				"de",
+				"decorar"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"gra",
+				"grados_f"
+			],
+			[
+				"gr",
+				"grados_celsius"
+			],
+			[
+				"grados",
+				"grados_celsius"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"No",
+				"Nosotros"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"FO",
+				"FOOTER\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"rb",
+				"rgba()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 243,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "prueba.ts",
+			"settings":
+			{
+				"buffer_size": 885,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "prueba.js",
+			"settings":
+			{
+				"buffer_size": 873,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/curso_typescript"
+	],
+	"file_history":
+	[
+		"/C/Users/ROJASAEU/Desktop/Sublime Text 3/Data/Packages/User/TypeScriptReact.sublime-settings",
+		"/C/wamp/www/curso_typescript/mercado.html",
+		"/C/Users/ROJASAEU/Desktop/curso web/CSS3/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/curso web/CSS3/hoja-con-estilo.html",
+		"/C/Users/ROJASAEU/Desktop/Evaluacion 1.html",
+		"/C/Users/ROJASAEU/Desktop/Clase 1 JavaScript/index.html",
+		"/C/Users/ROJASAEU/Desktop/Clase 1 JavaScript/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/Clase 1 JavaScript/index.htm",
+		"/C/wamp/www/tenis1/css/bootstrap-theme.css",
+		"/C/Users/ROJASAEU/Desktop/Nueva carpeta/index.html",
+		"/C/Users/ROJASAEU/Desktop/Nueva carpeta/js/index.js",
+		"/C/Users/ROJASAEU/Desktop/Nueva carpeta/scss/style.scss",
+		"/C/Users/ROJASAEU/Desktop/Nueva carpeta/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/cssclase2/css/25708.css",
+		"/C/Users/ROJASAEU/Desktop/cssclase2/index.html",
+		"/C/Users/ROJASAEU/Desktop/html/25708.htm",
+		"/C/wamp/www/tenis/css/bootstrap.css",
+		"/C/wamp/www/tenis/css/bootstrap-theme.min.css",
+		"/C/wamp/www/tenis/css/style.css",
+		"/C/wamp/www/tenis1/index.html",
+		"/C/wamp/www/tenis1/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/Cleaning C.A/Cleaning.html",
+		"/C/wamp/www/Valera/index.html",
+		"/C/Users/ROJASAEU/Desktop/PAGINA WEB DE EMPRESA,/INDEX.HTML",
+		"/C/Users/ROJASAEU/Desktop/HTML/index.html",
+		"/C/Users/ROJASAEU/Desktop/clase2.html",
+		"/C/Users/ROJASAEU/Desktop/Abrahan David 28.264.583 Pagina Web/Pagina.html",
+		"/C/Users/ROJASAEU/Desktop/CENIBIT/REBUILDPHONE1.html",
+		"/C/Users/ROJASAEU/Desktop/web/miprimerapagina.html",
+		"/C/Users/ROJASAEU/Desktop/miprimerapagina.html",
+		"/C/xampp/htdocs/ejemplosfunciones_s1/index.php",
+		"/C/xampp/htdocs/ejemplosfunciones_s1/tabla.php",
+		"/C/xampp/htdocs/ejemplosfunciones_s2/tabla.php",
+		"/C/xampp/htdocs/ejemplosfunciones_n2/index.php",
+		"/C/xampp/htdocs/ejemplosfunciones_n2/tabla.php",
+		"/C/xampp/htdocs/ejemplosfunciones_n1/tabla.php",
+		"/C/xampp/htdocs/ejemplosfunciones_s2/index.php",
+		"/C/xampp/htdocs/ejemplosfunciones/index.php",
+		"/C/xampp/htdocs/ejemplosfunciones/fun.php",
+		"/C/Users/Date/Desktop/prueba.html",
+		"/C/xampp/htdocs/AJAXFINAL/conexion.php",
+		"/C/xampp/htdocs/examen_final/conexion.php",
+		"/C/wamp/www/tabla2/Actividad3_JesusBriceño/index.html",
+		"/C/wamp/www/tabla2/Actividad3_JesusBriceño/registro.php",
+		"/C/wamp/www/Examen_BriceñoHernandez/registro.php",
+		"/F/Proyecto Lily Paula2/css/agency.css",
+		"/F/Proyecto Lily Paula2/css/bootstrap.css",
+		"/F/Proyecto Lily Paula2/index.html",
+		"/C/Documents and Settings/Clases/Escritorio/bd.sql",
+		"/E/Proyectos Web/Proyecto Lily Paula/css/agency.css",
+		"/E/Proyectos Web/Proyecto Lily Paula/css/estilo.css",
+		"/E/Proyectos Web/Proyecto Lily Paula/css/bootstrap.css",
+		"/E/Proyectos Web/Proyecto Lily Paula/index.html",
+		"/C/xampp/htdocs/proyecto/control.php",
+		"/C/xampp/htdocs/proyecto/reachend.php",
+		"/C/xampp/htdocs/proyecto/sesion.php",
+		"/F/panama/css/agency.css",
+		"/F/panama/css/bootstrap.css",
+		"/F/panama/css/owl.theme.css",
+		"/F/panama/index.html",
+		"/F/empresas1/index.html",
+		"/C/Documents and Settings/Clases/Escritorio/prueba.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cerca",
+			"mundo",
+			"map",
+			"home",
+			"WhatWeOffer",
+			"table-responsive",
+			".table",
+			"table",
+			"tg",
+			"contact",
+			"contact_us",
+			"list-group",
+			"list gro",
+			"h2",
+			"cd-member-bio",
+			"cd-member-bio member",
+			"cd-member-bio member-4",
+			"cd-member-info",
+			"cd-img-overlay",
+			"cd-member-bio member",
+			"cd-bio-content",
+			"home-video-wrapper",
+			".75",
+			"0, 0, 0",
+			"\"row\"",
+			".materiales",
+			"team/",
+			"portfolio",
+			"contacto",
+			"#2A2A2A",
+			"15px 5px",
+			"5px 5px",
+			".navbar-nav > li > a",
+			"100px",
+			"portfolio",
+			"/franelas",
+			"franelas/",
+			"mydb",
+			"team",
+			"6",
+			"#E0C73B",
+			"<h6>texto</h6>",
+			"class=\"skillp\"",
+			"<p>",
+			"333333",
+			"...",
+			"h2",
+			"30",
+			"30px",
+			"30",
+			";\n",
+			"1",
+			"400px",
+			"4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "prueba.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "prueba.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "curso-typescript.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

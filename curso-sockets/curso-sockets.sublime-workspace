@@ -1,0 +1,618 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"numeroAleatorio"
+			],
+			[
+				"comm",
+				"comm-section\tComment - Full section comment"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"re",
+				"retorno2"
+			],
+			[
+				"FUC",
+				"function"
+			],
+			[
+				"di",
+				"digito2"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"com",
+				"comm-section\tComment - Full section comment"
+			],
+			[
+				"co",
+				"comm-block\tComment - Block style comment"
+			],
+			[
+				"b",
+				"bd\tborder"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"oep",
+				"operaciones"
+			],
+			[
+				"s",
+				"select\tTag"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"mi",
+				"miarray2"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"nom",
+				"nombre2"
+			],
+			[
+				"nombre",
+				"nombre2"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"ca",
+				"calculo"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"t",
+				"telefono"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"con",
+				"confirmarPass"
+			],
+			[
+				"campo",
+				"campoVacio"
+			],
+			[
+				"cam",
+				"campoVacio"
+			],
+			[
+				"clic",
+				"click"
+			],
+			[
+				"c",
+				"circulo_verde"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"pa",
+				"palabraMagica"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"de",
+				"devuelveString"
+			],
+			[
+				"devulve",
+				"devuelveNumero"
+			],
+			[
+				"num",
+				"num"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"pro",
+				"programador"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"HT",
+				"Set Syntax: HTML (Tcl)"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Mi_Portafolio/curso-sockets"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/07.intervalos-y-retardos-de-tiempo.js",
+		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/06.eventos.js",
+		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/05.ciclos.js",
+		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/03.funciones.js",
+		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/02.variables.js",
+		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/01.sintaxis.js",
+		"/C/wamp/www/Mi_Portafolio/curso-vue2/webapp/index.html",
+		"/C/wamp/www/Mi_Portafolio/curso-vue2/webapp/src/App.vue",
+		"/C/wamp/www/Mi_Portafolio/curso-vue2/codigo/index.html",
+		"/C/wamp/www/Mi_Portafolio/curso-vue2/codigo/js/main.js",
+		"/C/wamp/www/SARECA-master/html/consulta_reparacion_f.php",
+		"/C/Users/ROJASAEU/Desktop/Sublime Text 3/Data/Packages/User/Git.sublime-settings",
+		"/C/Users/ROJASAEU/Desktop/css_avanzado/2 - Generales/03 - Flexbox - container/base.css",
+		"/C/Users/ROJASAEU/Desktop/css_avanzado/2 - Generales/03 - Flexbox - container/index.html",
+		"/C/Users/ROJASAEU/Desktop/css_avanzado/2 - Generales/02 - Sombras/base.css",
+		"/C/Users/ROJASAEU/Desktop/css_avanzado/2 - Generales/02 - Sombras/index.html",
+		"/C/Users/ROJASAEU/Desktop/css_avanzado/2 - Generales/01 - Esquinas redondeadas/base.css",
+		"/C/Users/ROJASAEU/Desktop/css_avanzado/2 - Generales/01 - Esquinas redondeadas/index.html",
+		"/C/Users/ROJASAEU/Desktop/Actividades curso/primera practica jquery__/js/script.js",
+		"/C/Users/ROJASAEU/Desktop/Actividades curso/primera practica jquery__/index.html",
+		"/C/wamp/www/login/index.php",
+		"/C/Users/ROJASAEU/Desktop/Sublime Text 3/Data/Packages/Git/Git.sublime-settings",
+		"/C/Users/ROJASAEU/Desktop/Actividades curso/primera practica jquery__/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/documentos y archivos/Curso-de-Web-Master-master/hoja-con-estilo.html",
+		"/C/wamp/www/primera practica de php/cerveza.php",
+		"/C/wamp/www/primera practica de php/imprimir.php",
+		"/C/wamp/www/primera practica de php/generador.html",
+		"/C/wamp/www/primera practica de php/php.ini",
+		"/C/Users/ROJASAEU/Desktop/primera practica de php/index.php",
+		"/C/Users/ROJASAEU/Desktop/primera practica con JQ/asd.html",
+		"/C/Users/ROJASAEU/Desktop/primera practica con JQ/palin.html",
+		"/C/Users/ROJASAEU/Desktop/primera practica con JQ/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/primera practica jquery/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/primera practica jquery/index.html",
+		"/C/Users/ROJASAEU/Desktop/primera practica jquery/js/script.js",
+		"/C/Users/ROJASAEU/Desktop/clase de JS/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/Curso-de-Web-Master-master/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/Curso-de-Web-Master-master/hoja-con-estilo.html",
+		"/C/Users/ROJASAEU/Desktop/Curso-de-Web-Master-master/Actividad 1/hoja-con-estilo.html",
+		"/C/Users/ROJASAEU/Desktop/clase 1 css/css/style.css",
+		"/C/Users/ROJASAEU/Desktop/curso-typescript/prueba.ts",
+		"/C/Users/ROJASAEU/Desktop/curso-typescript/prueba.js",
+		"/C/Users/ROJASAEU/Desktop/curso-typescript/EJERCICIOS.html",
+		"/C/Users/ROJASAEU/Desktop/curso-typescript/clase 2.html",
+		"/C/Users/ROJASAEU/Desktop/curso-typescript/UN CLIENTE PIDE UNA PAGINA SENCILLA",
+		"/C/Users/ROJASAEU/Desktop/Sublime Text 3/Data/Packages/User/Plain text.sublime-settings",
+		"/E/Paredes/oac/modules/conexion.php",
+		"/E/Paredes/oac/modules/singin.php",
+		"/E/Paredes/oac/modules/modules.php",
+		"/E/Paredes/oac/registro.php",
+		"/C/Users/Date/Desktop/prueba.html",
+		"/C/xampp/htdocs/AJAXFINAL/conexion.php",
+		"/C/xampp/htdocs/examen_final/conexion.php",
+		"/C/wamp/www/tabla2/Actividad3_JesusBriceño/index.html",
+		"/C/wamp/www/tabla2/Actividad3_JesusBriceño/registro.php",
+		"/C/wamp/www/Examen_BriceñoHernandez/registro.php",
+		"/F/Proyecto Lily Paula2/css/agency.css",
+		"/F/Proyecto Lily Paula2/css/bootstrap.css",
+		"/F/Proyecto Lily Paula2/index.html",
+		"/C/Documents and Settings/Clases/Escritorio/bd.sql",
+		"/E/Proyectos Web/Proyecto Lily Paula/css/agency.css",
+		"/E/Proyectos Web/Proyecto Lily Paula/css/estilo.css",
+		"/E/Proyectos Web/Proyecto Lily Paula/css/bootstrap.css",
+		"/E/Proyectos Web/Proyecto Lily Paula/index.html",
+		"/C/xampp/htdocs/proyecto/control.php",
+		"/C/xampp/htdocs/proyecto/reachend.php",
+		"/C/xampp/htdocs/proyecto/sesion.php",
+		"/F/panama/css/agency.css",
+		"/F/panama/css/bootstrap.css",
+		"/F/panama/css/owl.theme.css",
+		"/F/panama/index.html",
+		"/F/empresas1/index.html",
+		"/C/Documents and Settings/Clases/Escritorio/prueba.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "curso-sockets.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

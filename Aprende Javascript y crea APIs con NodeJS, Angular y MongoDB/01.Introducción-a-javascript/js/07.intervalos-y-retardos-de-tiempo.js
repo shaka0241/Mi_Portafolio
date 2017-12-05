@@ -2,29 +2,34 @@ var tiempo = document.querySelector("#tiempo");
 var segundos = 0;
 
 /*=============================================
-SET INTERVAL (Intervalo de tiempo)
-setInterval(función, tiempo)
+= SET INTERVAL (INTERVALO DE TIEMPO)
+setInterval(funcion, tiempo)		          =
 =============================================*/
 
-var intervalo = setInterval(function(){
+ var intervalo = setInterval(function(){
 
-	segundos++;
+		segundos++;
 
-	tiempo.innerHTML = segundos;
+		tiempo.innerHTML = segundos;
+		
 
 },1000)
 
 /*=============================================
-SET TIMEOUT (retardo de tiempo)
-setTimeout(función, tiempo)
+= SET TIMEOUT (RETARDO DE TIEMPO)
+setTimeout(funcion, tiempo)		          =
 =============================================*/
-
 setTimeout(function(){
+	//alert("Se cumplio el tiempo")
 
-	// alert("Se cumplió el tiempo")
 	clearInterval(intervalo);
 
-},5000)
+}, 6000)
+
+
+
+
+
 
 
 

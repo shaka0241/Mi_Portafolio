@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"conn_sis"
+			],
+			[
 				"ob",
 				"onsubmit\tAttr"
 			],
@@ -186,10 +190,6 @@
 			[
 				"ma",
 				"maxlength\tAttr"
-			],
-			[
-				"con",
-				"confirmarPass"
 			],
 			[
 				"campo",
@@ -429,10 +429,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/Mi_Portafolio/conexionSQL"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/Mi_Portafolio/conexionSQL/conexion_sis.php",
+		"/C/wamp/www/Mi_Portafolio/conexionSQL/conexion_sql_server.php",
 		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/07.intervalos-y-retardos-de-tiempo.js",
 		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/06.eventos.js",
 		"/C/wamp/www/Mi_Portafolio/Aprende Javascript y crea APIs con NodeJS, Angular y MongoDB/01.Introducción-a-javascript/js/05.ciclos.js",

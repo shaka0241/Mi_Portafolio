@@ -1,5 +1,34 @@
 <?php
 include("conexion/conexionbd.php");
+if(!empty($_POST)){
+    $codigo = mysqli_real_scape_string($conexion, $_POST['cod']);
+    $asignatura = mysqli_real_scape_string($conexion, $_POST['nom']);
+    $nota = mysqli_real_scape_string($conexion, $_POST['nota']);
+    $vermaterias ="SELECT idasignaturas, codigoasignaturas,nombreasignatura,nota from asignaturas WHERE codigoasignaturas ='$codigo'OR nombreasignatura='$asignatura'";
+
+        $existemateria = $conexion->query($vermaterias);
+        $filas = $existemateria->num_rows;
+        if($filas>0){
+            echo " <script>
+            alert('La asginatura ya existe');
+            window.location='index.php';
+            </script>"
+        } else{
+            $sqlmateria="INSERT INTO asignaturas(codigoasignaturas,nombreasignatura,nota)VALUES('$codigo','$asignatura','$nota')";
+
+            $resultadomateria=$conexion-query($sqlmateria);
+            if($resultadomateria>0){
+                echo "<script>
+            alert('Registro exitoso');
+            window.location='index.php';
+            </script>"
+            }else{
+                echo "<script> alert('Error al registrar');
+            window.location='index.php';
+            </script>"
+            }
+        }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +46,7 @@ include("conexion/conexionbd.php");
 
     Codigo: <input type="text" name="cod" placeholder="CD101" required>
     Asignatura<input type="text" name="nom" placeholder="Programacion" required>
-    Nota: <input type="number" placeholder="99">
+    Nota: <input type="number" name="nota" placeholder="99">
     <input type="submit" name="guardar" value="Guardar">
     
     </form>
